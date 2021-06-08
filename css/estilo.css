@@ -1,0 +1,93 @@
+
+﻿/* eliminando espaçamentos padrões do documento */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+	background-image: url("fundo2.jpg");
+	width: 90%;
+	height: 90%;
+}
+#cx1{
+	position:absolute;
+	height:500px;
+	width:1000px;
+	background-color:rgba(16,16,16,.5);
+	opacity:70%;      
+	top:;			       /*eixo X */
+	left:330px;			/*eixo Y */
+	text-align:center;
+	text-shadow: 1px 1px 2px black, 0 0 3em green, 0 0 0.3em green;
+}
+content{
+    float: right;
+	width: 430px;
+	margin: 0 0 0 20px;
+}	
+contents p { line-height: 165%; }
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	/* Eliminando a bolinha da tag li */
+	list-style: none;
+}
+
+img{
+	width: 150px;
+	margin: -10px;
+}
+
+/* Ocultando o checkbox */
+input[type="checkbox"]{
+   display: none; 
+}
+
+nav{
+	background-color: rgba(16,16,16,.5);
+	width: 250px;
+	height: 100%;
+	left: -300px;
+	position: absolute;
+	transition: all .5s;
+}
+
+/* Surgir o Menu quando acionado o checkbox */
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(300px);
+	
+}
+
+ul{
+	/*background-color:#7FFF00;*/
+	top: 100px;
+	position: absolute;
+	width: 100%;
+}
+
+a{
+	display: block;
+    padding: 15px 5px;
+	color: white;
+	border-radius: 5px;
+	
+}	
+
+a:hover{
+	background-color: #7FFF00;
+	color: black;
+}
+
+label{
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}

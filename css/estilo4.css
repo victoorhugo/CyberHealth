@@ -1,0 +1,24 @@
+﻿/* eliminando espaçamentos padrões do documento */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+	background-image: url("fundo2.jpg");
+	width: 90%;
+	height: 90%;
+}
+#cx1{
+	position:absolute;
+	height:500px;
+	width:800px;
+	background-color:rgba(16,16,16,.5);
+	opacity:80%;      
+	top:;			       /*eixo X */
+	left:330px;			/*eixo Y */
+	text-align:;
+	text-shadow: 1px 1px 2px black, 0 0 3em green, 0 0 0.3em green;
+	
+}
